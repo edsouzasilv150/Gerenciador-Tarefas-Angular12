@@ -5,6 +5,7 @@ import { Tarefa } from './';
 @Injectable({
   providedIn: 'root'
 })
+
 export class TarefaService {
 
   constructor() { }

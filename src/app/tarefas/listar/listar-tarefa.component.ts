@@ -9,9 +9,15 @@ import { TarefaService, Tarefa } from '../shared';
 })
 export class ListarTarefaComponent implements OnInit {
 
+  //tarefas: Tarefa[];
+
   constructor(private tarefaService: TarefaService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    //this.tarefas = this.listarTodos();
   }
 
+  /*listarTodos(): Tarefa[] {
+    return this.tarefaService.listarTodos();
+  }*/
 }

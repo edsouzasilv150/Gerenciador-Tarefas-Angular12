@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { TarefaService } from './shared';
 import { ListarTarefaComponent } from './listar';
 
+
 @NgModule({
   declarations: [
     ListarTarefaComponent
@@ -18,9 +19,6 @@ import { ListarTarefaComponent } from './listar';
   ],
   providers: [
     TarefaService
-  ],
-  exports: [
-    ListarTarefaComponent
   ]
 })
 export class TarefasModule { }
